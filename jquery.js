@@ -11,8 +11,10 @@ $(document).ready(function () {
         $(this).css("backgroundColor", "white");
     });
 
-
-
+    $(".button").click(function () {
+        $(".container").empty();
+        var $boxes = prompt("Please input the number of boxes:");
+    });
 
 
 

@@ -1,14 +1,13 @@
 .sub {
-    //background-color: black;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     float: left;
-    //margin: 5px;
     }
 
 .container {
-    width: 400px;
-    height: 400px;
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
     margin: 0 auto;
     }
 
