@@ -20,5 +20,10 @@ $(document).ready(function () {
         for (var i = 1; i <= $boxesfloor; i++) {
             $(".container").append("<div class=sub></div>");}
         $(".sub").css({'height': 800 / $whfloor,'width': 800 / $whfloor});
+        $(".sub").hover(function() {
+        $(this).css("backgroundColor", "black");
+        }, function() {
+        $(this).css("backgroundColor", "white");
+        });
     });
 });
